@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Core", "Sat4.NET.Core\Sat4.NET.Core.csproj", "{9F70E957-BCDD-411D-B3CA-8AA905BAED41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Sat", "Sat4.NET.Sat\Sat4.NET.Sat.csproj", "{A33EC44E-C8AB-4505-BDFA-0E7BCEB62134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Pseudo", "Sat4.NET.Pseudo\Sat4.NET.Pseudo.csproj", "{9AC72304-BD95-432D-9F79-5AC5E4965459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Maxsat", "Sat4.NET.Maxsat\Sat4.NET.Maxsat.csproj", "{DB02EA38-8623-4819-8CA3-74DF712CB0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Csp", "Sat4.NET.Csp\Sat4.NET.Csp.csproj", "{B8B7B10D-306E-47D1-9A69-C2469A290802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat4.NET.Sudoku", "Sat4.NET.Sudoku\Sat4.NET.Sudoku.csproj", "{F8C9F611-FBF9-4D38-8999-73C1169E8DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F70E957-BCDD-411D-B3CA-8AA905BAED41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F70E957-BCDD-411D-B3CA-8AA905BAED41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F70E957-BCDD-411D-B3CA-8AA905BAED41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F70E957-BCDD-411D-B3CA-8AA905BAED41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33EC44E-C8AB-4505-BDFA-0E7BCEB62134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33EC44E-C8AB-4505-BDFA-0E7BCEB62134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33EC44E-C8AB-4505-BDFA-0E7BCEB62134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33EC44E-C8AB-4505-BDFA-0E7BCEB62134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC72304-BD95-432D-9F79-5AC5E4965459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC72304-BD95-432D-9F79-5AC5E4965459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC72304-BD95-432D-9F79-5AC5E4965459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC72304-BD95-432D-9F79-5AC5E4965459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB02EA38-8623-4819-8CA3-74DF712CB0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB02EA38-8623-4819-8CA3-74DF712CB0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB02EA38-8623-4819-8CA3-74DF712CB0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB02EA38-8623-4819-8CA3-74DF712CB0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B7B10D-306E-47D1-9A69-C2469A290802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B7B10D-306E-47D1-9A69-C2469A290802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B7B10D-306E-47D1-9A69-C2469A290802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B7B10D-306E-47D1-9A69-C2469A290802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C9F611-FBF9-4D38-8999-73C1169E8DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C9F611-FBF9-4D38-8999-73C1169E8DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C9F611-FBF9-4D38-8999-73C1169E8DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C9F611-FBF9-4D38-8999-73C1169E8DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F13B1391-E39C-4F78-BBAE-F1FA71DB089C}
+	EndGlobalSection
+EndGlobal

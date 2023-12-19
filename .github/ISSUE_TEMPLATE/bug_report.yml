@@ -1,0 +1,94 @@
+name: Bug Report
+description: You have found something wrong with Shiny
+title: "[Bug]: "
+labels: [bug, unverified]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for filing an issue.  Please only file issues against the LATEST STABLE or LATEST BETA version of Shiny from Nuget (ALPHAs are not accepted for issues).  If you are a sponsor, you can discuss issues with preview releases in the SponsorConnect Discord channel
+        If you have questions, please post them in GitHub discussions. 
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component/Nuget
+      description: The component you are filing against.  If it is not listed here it means there is no support for it
+      options:
+        - Lightweight constraint programming with a SAT solver (Sat4.NET.Core)
+        - SAT Toolkit (Sat4.NET.Sat)
+        - Pseudo-boolean Solvers (Sat4.NET.Pseudo)
+        - MAX SAT Solvers based on reduction to Pseudo-boolean optimization problems (Sat4.NET.Maxsat)
+        - CSP solvers based on a translation into SAT (Sat4.NET.Csp)
+        - SAT-based Sudoku generator and solver (Sat4.NET.Sudoku)
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: operatingsystems
+    attributes:
+      label: What operating system(s) are effected?
+      description: You may select more than one
+      options:
+      - label: iOS (13+ supported)
+      - label: Mac Catalyst
+      - label: Android (8+ supported)
+      - label: Windows (.NET 7 Target - only Core is currently supported)
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Version(s) of Operation Systems
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Hosting Model
+      description: You really should only select one of these
+      options:
+      #- label: Blazor
+      - label: MAUI
+      - label: Native/Classic Xamarin
+      - label: Manual
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: exception
+    attributes:
+      label: Exception or Log output
+      description: Please copy and paste any relevant log output
+  - type: textarea
+    id: codesample
+    attributes:
+      label: Code Sample
+      description: Please include a github repo with your reproducible sample
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/chiefmonk/sat4.net/blob/master/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have supplied a reproducible sample that is NOT FROM THE SHINY SAMPLES! 
+          required: true
+        - label: I am a Sponsor OR I am using the LATEST stable/beta version from nuget (v3.0 stable - ALPHAS are not taking issues - Sponsors can still send v2 issues)
+          required: true
+        - label: I am Sponsor OR My GitHub account is 30+ days old
+          required: true
+        - label: I understand that if I am checking these boxes and I am not actually following what they are saying, I will be removed from this repository!
+          required: true
